@@ -1,22 +1,75 @@
 <!DOCTYPE html>
-<html>
-    <link href="main.css" rel="stylesheet" type="text/css">
-    <title>
-        Matrix
-    </title>
-    <head id="head">
-        <div id="title">
-            <a href="#"><button>Matrix</button></a>
-        </div>
-        <div id="aboutus">
-            <a href="#"><button>Sobre nosotros</button></a>
-        </div>
-        <div id="contact">
-            <a href="#"><button>Contacto</button></a>
-        </div>
 
+<style>
+    #html{
+        background-color: black;
+    }
+    #title{
+        margin-top:20px;
+    }
+    #head{
+        margin-left: 5px;
+        margin-top:20px;
+        border-bottom-style: solid;
+        padding:30px;
+    }
+    #aboutus{
+        margin-left:300px;
+    }
+    #contact{
+        padding-top:40px;
+        position:absolute;
+        margin-left:100px;
+    }
+    #photo{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+        position:relative;
+    }
+    #text{
+        top:90%;
+        left:2%;
+        position: absolute;
+        font-size:xx-large;
+    }
+    #text2{
+        position: absolute;
+        font-size:xx-large;
+        top:90%;
+        left:80%;
+    }
+    #aboutus{
+        position:absolute;
+        margin-left:450px;
+        margin-top:40px;
+    }
+</style>
 
+<html id="html">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Matrix</title>
     </head>
+    <header id="head">
+        <div>
+            <a href="#" id="title"><img src="photo2.jpg"></a>
+            <a href="#" id="contact"><img src="photo3.jpg"></a>
+            <a href="#" id="aboutus"><img src="photo4.jpg"></a>
+        </div>
+    </header>
+    <main>
+        <div id="photodiv">
+            <img src="photo.jpeg" id="photo">
+            <h2 style="color:white" id="text"> Nacemos de la excelencia </h2>
+            <h2 style="color:white" id="text2"> y la perfección</h2>
+        </div>
+        <div id="intro">
+
+        </div>
+
+    </main>
 
 
 
