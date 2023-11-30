@@ -65,7 +65,7 @@
         font-family: montserrat;
     }
     .reloges{
-        padding-left: 42%;
+        padding-left: 45%;
         text-decoration: underline;
     }
     #matrixblack{
@@ -76,14 +76,30 @@
         border-width:2px;
         margin-right:979px;
         border-radius: 30px;
+        position:relative;
+    }
+    #matrixrosa{
+        margin-top:100px;
+        margin-left: 50px;
+        border-style: solid;
+        border-color:white;
+        border-width:2px;
+        margin-right:979px;
+        border-radius: 30px;
+        position:relative;
     }
     .matrixphoto{
         height:300px;
         width:300px;
         border-radius:30px;
     }
+    .matrixrosafoto{
+        height:300px;
+        width:300px;
+        border-radius:30px;
+    }
     .mbbutton{
-        margin-left:45px;
+        margin-left:55px;
         border-radius: 10px;
         width: 100px;
         height: 50px;
@@ -91,12 +107,28 @@
         border: none;
         font-family:rubik medium;
     }
-    #price1{
-        align-self: center;
+    .mbbuttonrosa{
+        margin-left:55px;
+        border-radius: 10px;
+        width: 100px;
+        height: 50px;
+        font-size:20px;
+        border: none;
+        font-family:rubik medium;
+    }
+    #textblack{
+        position:absolute;
+        margin-left: 700px;
+        margin-top:300px;
+    }
+    #textrosa{
+        position:absolute;
+        margin-left: 700px;
+        margin-top:300px;
     }
 </style>
 
-< id="html">
+<html id="html">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -123,13 +155,26 @@
         </div>
         <div id="productos">
             <h1 style="color: rgb(255, 255, 255);font-family:kiona" class="reloges">
-                Productos
+                Diseños
             </h1>
+            <div id="textblack">
+                <h1 style="color:white;">oenaonioaifnowin</h1>
+            </div>
             <div id="matrixblack">
                 <img src="matrixblack.jpeg" class="matrixphoto">
-                <h1 style="color:white;font-size: 18px;margin-left:80px;font-family:kiona">Matrix black</h1>
+                <h1 style="color:white;font-size: 18px;margin-left:85px;font-family:kiona">Matrix black</h1>
                 <div>
-                    <h1 style="color: white; margin-left: 25px;" id="price1">199,99€<button class="mbbutton">Comprar</button></h1>
+                    <h1 style="color: white; margin-left: 40px;" id="price1">250€<button class="mbbutton">Comprar</button></h1>
+                </div>
+            </div>
+            <div id="textrosa">
+                    <h1 style="color:white;">oenaonioaifnowin</h1>
+            </div>
+            <div id="matrixrosa">
+                <img src="matrixrosa.jpeg" class="matrixrosafoto">
+                <h1 style="color:white;font-size: 18px;margin-left:90px;font-family:kiona">Matrix rosé</h1>
+                <div>
+                    <h1 style="color: white; margin-left: 40px;" id="price2">300€<button class="mbbuttonrosa">Comprar</button></h1>
                 </div>
             </div>
         </div>
@@ -140,4 +185,3 @@
 
 
 </html>
-
