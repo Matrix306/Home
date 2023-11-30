@@ -1,25 +1,31 @@
 <!DOCTYPE html>
 
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
     #html{
         background-color: black;
     }
     #title{
         margin-top:20px;
+        margin-left:35%;
+    }
+    .titles{
+        height: 150px;
     }
     #head{
         margin-left: 5px;
         margin-top:20px;
         border-bottom-style: solid;
         padding:30px;
-    }
-    #aboutus{
-        margin-left:300px;
+        padding-bottom: 30px;
     }
     #contact{
-        padding-top:40px;
+        border-color: black;
+        border-style: solid;
         position:absolute;
-        margin-left:100px;
+        text-decoration: none;
+        margin-top:0px;
+        font-size: 10px;
     }
     #photo{
         height: 100%;
@@ -29,7 +35,7 @@
     }
     #text{
         top:90%;
-        left:2%;
+        left:1.5%;
         position: absolute;
         font-size:xx-large;
     }
@@ -37,12 +43,56 @@
         position: absolute;
         font-size:xx-large;
         top:90%;
-        left:80%;
+        left:78%;
     }
     #aboutus{
         position:absolute;
-        margin-left:450px;
-        margin-top:40px;
+        margin-left: 115px;
+        font-size: 10px;
+        text-decoration: none;
+        margin-top: 4px;
+    }
+    .div{
+        border-color: black;
+        border-width: 2px;
+        border-style: solid;
+        color: white;
+        margin-left: 60px;
+        padding-top:60px;
+        font-family: Montserrat;
+    }
+    #photodiv{
+        font-family: montserrat;
+    }
+    .reloges{
+        padding-left: 42%;
+        text-decoration: underline;
+    }
+    #matrixblack{
+        margin-top:100px;
+        margin-left: 50px;
+        border-style: solid;
+        border-color:white;
+        border-width:2px;
+        margin-right:979px;
+        border-radius: 30px;
+    }
+    .matrixphoto{
+        height:300px;
+        width:300px;
+        border-radius:30px;
+    }
+    .mbbutton{
+        margin-left:45px;
+        border-radius: 10px;
+        width: 100px;
+        height: 50px;
+        font-size:20px;
+        border: none;
+        font-family:rubik medium;
+    }
+    #price1{
+        align-self: center;
     }
 </style>
 
@@ -54,9 +104,9 @@
     </head>
     <header id="head">
         <div>
-            <a href="#" id="title"><img src="photo2.jpg"></a>
-            <a href="#" id="contact"><img src="photo3.jpg"></a>
-            <a href="#" id="aboutus"><img src="photo4.jpg"></a>
+            <a href="#" id="title"><img src="photo5.jpg" class="titles"></a>
+            <a href="#" id="contact"><h1 style="color:white">Contacto</h1></a>
+            <a href="#" id="aboutus"><h1 style="color: white;">Sobre nosotros</h1></a>
         </div>
     </header>
     <main>
@@ -65,8 +115,23 @@
             <h2 style="color:white" id="text"> Nacemos de la excelencia </h2>
             <h2 style="color:white" id="text2"> y la perfección</h2>
         </div>
-        <div id="intro">
-
+        <div class="div">
+            <h1>Est. 2023</h1>
+            <h2>
+                Fundado en Barcelona<br>
+            </h2>
+        </div>
+        <div id="productos">
+            <h1 style="color: rgb(255, 255, 255);font-family:kiona" class="reloges">
+                Productos
+            </h1>
+            <div id="matrixblack">
+                <img src="matrixblack.jpeg" class="matrixphoto">
+                <h1 style="color:white;font-size: 18px;margin-left:80px;font-family:kiona">Matrix black</h1>
+                <div>
+                    <h1 style="color: white; margin-left: 25px;" id="price1">199,99€<button class="mbbutton">Comprar</button></h1>
+                </div>
+            </div>
         </div>
 
     </main>
@@ -75,4 +140,3 @@
 
 
 </html>
-
