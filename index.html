@@ -5,7 +5,7 @@
     #html{
         background-color: black;
     }
-    #title{
+    #top{
         margin-top:20px;
         margin-left:35%;
     }
@@ -68,17 +68,7 @@
         padding-left: 45%;
         text-decoration: underline;
     }
-    #matrixblack{
-        margin-top:100px;
-        margin-left: 50px;
-        border-style: solid;
-        border-color:white;
-        border-width:2px;
-        margin-right:979px;
-        border-radius: 30px;
-        position:relative;
-    }
-    #matrixrosa{
+    .venta{
         margin-top:100px;
         margin-left: 50px;
         border-style: solid;
@@ -93,11 +83,6 @@
         width:300px;
         border-radius:30px;
     }
-    .matrixrosafoto{
-        height:300px;
-        width:300px;
-        border-radius:30px;
-    }
     .mbbutton{
         margin-left:55px;
         border-radius: 10px;
@@ -107,24 +92,71 @@
         border: none;
         font-family:rubik medium;
     }
-    .mbbuttonrosa{
-        margin-left:55px;
-        border-radius: 10px;
-        width: 100px;
-        height: 50px;
-        font-size:20px;
-        border: none;
-        font-family:rubik medium;
+    #textcloud{
+        position:absolute;
+        margin-left: 500px;
+        margin-top:250px;
+        font-style: italic;
+        text-align: center;
+    }
+    #textgold{
+        position:absolute;
+        margin-left: 400px;
+        margin-top:250px;
+        font-style: italic;
+        text-align: center;
+    }
+    #texttime{
+        position:absolute;
+        margin-left: 500px;
+        margin-top:250px;
+        font-style: italic;
+        text-align: center;
+    }
+    #textsilver{
+        position:absolute;
+        margin-left: 500px;
+        margin-top:250px;
+        font-style: italic;
+        text-align: center;
+    }
+    #textsea{
+        position:absolute;
+        margin-left: 420px;
+        margin-top:250px;
+        font-style: italic;
+        text-align: center;
+    }
+    #textmajesty{
+        position:absolute;
+        margin-left: 470px;
+        margin-top:250px;
+        font-style: italic;
+        text-align: center;
     }
     #textblack{
         position:absolute;
-        margin-left: 700px;
-        margin-top:300px;
+        margin-left: 410px;
+        margin-top:250px;
+        font-style: italic;
+        text-align: center;
     }
-    #textrosa{
-        position:absolute;
-        margin-left: 700px;
-        margin-top:300px;
+    #foot{
+        border-top: 2px solid gray;
+        margin-top:60px;
+    }
+    #priv{
+        margin-left: 43%;
+        margin-top:20px;
+        font-size: 15px;
+        text-decoration: none;
+    }
+    #topp{
+        margin-left: 45%;
+        margin-top:50px;
+        font-size: 15px;
+        text-decoration: none;
+        margin-bottom: 100px;
     }
 </style>
 
@@ -136,7 +168,7 @@
     </head>
     <header id="head">
         <div>
-            <a href="#" id="title"><img src="photo5.jpg" class="titles"></a>
+            <a href="#" id="top"><img src="photo5.jpg" class="titles"></a>
             <a href="#" id="contact"><h1 style="color:white">Contacto</h1></a>
             <a href="#" id="aboutus"><h1 style="color: white;">Sobre nosotros</h1></a>
         </div>
@@ -157,29 +189,105 @@
             <h1 style="color: rgb(255, 255, 255);font-family:kiona" class="reloges">
                 Diseños
             </h1>
-            <div id="textblack">
-                <h1 style="color:white;">oenaonioaifnowin</h1>
+            <div id="textcloud">
+                <h3 style="color:white;font-family:rubik;">Matrix Cloud, una representación de la sencillez y pureza del color blanco,<br>
+                    para representar el concepto de nube, “cloud”, mezclado con el color rosa<br>
+                    para aportar la amabilidad que muestra la que lo porta, una mezcla excelente.
+                </h3>
             </div>
-            <div id="matrixblack">
+            <div class="venta">
+                <img src="matrixrosa.jpeg" class="matrixphoto">
+                <h1 style="color:white;font-size: 18px;margin-left:90px;font-family:kiona">Matrix cloud</h1>
+                <div>
+                    <h1 style="color: white; margin-left: 40px;" id="price2">900€<button class="mbbutton">Comprar</button></h1>
+                </div>
+            </div>
+            <div id="textgold">
+                    <h3 style="color:white;font-family:rubik;">Matrix Gold, una representación del lujo y el poder a través de su oro, con pequeñas parcelas plateadas<br>
+                        para recalcar los detalles del reloj, las agujas, y toda la parcela que lo<br>
+                        rodea, unido por una correa rosa para representar el positivismo que provoca.
+                    </h3>
+            </div>
+            <div class="venta">
+                <img src="Matrix Gold.jpg" class="matrixphoto">
+                <h1 style="color:white;font-size: 18px;margin-left:95px;font-family:kiona">Matrix gold</h1>
+                <div>
+                    <h1 style="color:white; margin-left: 40px;">950€<button class="mbbutton">Comprar</button></h1>
+                </div>
+            </div>
+            <div id="texttime">
+                <h3 style="color:white;font-family:rubik;">Matrix Timeless, el reloj infinito, sigue una filosofía vintage, clásica,<br>
+                    que le da ese toque para que, sí, marque el tiempo, pero el diseño sea atemporal. 
+                </h3>
+            </div>
+            <div class="venta">
+                <img src="Matrix Timeless.jpg" class="matrixphoto">
+                <h1 style="color:white;font-size: 18px;margin-left:80px;font-family:kiona">Matrix timeless</h1>
+                <div>
+                    <h1 style="color: white; margin-left: 40px;">900€<button class="mbbutton">Comprar</button></h1>
+                </div>
+            </div>
+            <div id="textsilver">
+                <h3 style="color: white;font-family:rubik;">Matrix Silver, el reloj bañado y predominado por el color plata, un reloj <br>
+                    que no solo marca la hora, incita a reflexionar sobre el futuro, con un toque de azul<br>
+                    en la esfera del reloj, para dar un toque de relajación durante el proceso.
+                </h3>
+            </div>
+            <div class="venta">
+                <img src="Matrix Silver.jpg" class="matrixphoto">
+                <h1 style="color:white;font-size: 18px;margin-left:85px;font-family:kiona">Matrix silver</h1>
+                <div>
+                    <h1 style="color:white; margin-left: 40px;">950€<button class="mbbutton">Comprar</button></h1>
+                </div>
+            </div>
+            <div id="textsea">
+                <h3 style="color: white;font-family:rubik;">Matrix Sea, predominando los tonos de azul marino, color relacionado con los vientos y el mar,<br>
+                    este reloj aporta calma como la orilla del mar, y tiene un azul refrescante como la brisa marina,<br>
+                    con un toque de plata en los detalles para relacionarlo con la pureza del océano.
+                </h3>
+            </div>
+            <div class="venta">
+                <img src="Matrix Sea.jpg" class="matrixphoto">
+                <h1 style="color:white;font-size: 18px;margin-left:95px;font-family:kiona">Matrix sea</h1>
+                <div>
+                    <h1 style="color:white; margin-left: 40px;">900€<button class="mbbutton">Comprar</button></h1>
+                </div>
+            </div>
+            <div id="textmajesty">
+                <h3 style="color: white;font-family:rubik;">Matrix Time Majesty, con los números romanos agrandados, demuestra la grandeza<br>
+                    del tiempo que los romanos hicieron perpetuar. Es una señal de formalidad,<br>
+                    acompañada de colores oscuros con el contraste del blanco,<br>
+                    que simboliza la pureza en los números romanos.
+                </h3>
+            </div>
+            <div class="venta">
+                <img src="Matrix Time Majesty.jpg" class="matrixphoto">
+                <h1 style="color:white;font-size: 18px;margin-left:50px;font-family:kiona">Matrix time majesty</h1>
+                <div>
+                    <h1 style="color:white; margin-left: 40px;">900€<button class="mbbutton">Comprar</button></h1>
+                </div>
+            </div>
+            <div id="textblack">
+                <h3 style="color: white;font-family:rubik;">Matrix Black, nuestra joya de la corona. Un reloj hecho con fibras de carbono,<br>
+                    para darle ese toque diferencial de otros relojes. Es un reloj<br>
+                    que suma la potencia de dos colores como son el rojo y el negro.<br>
+                    Con la predominación del color oscuro se le da referencia a la elegancia y autoridad del portador,<br>
+                    combinado con el rojo, que le suma una gran cantidad de poder y energía.
+                </h3>
+            </div>
+            <div class="venta">
                 <img src="matrixblack.jpeg" class="matrixphoto">
                 <h1 style="color:white;font-size: 18px;margin-left:85px;font-family:kiona">Matrix black</h1>
                 <div>
-                    <h1 style="color: white; margin-left: 40px;" id="price1">250€<button class="mbbutton">Comprar</button></h1>
-                </div>
-            </div>
-            <div id="textrosa">
-                    <h1 style="color:white;">oenaonioaifnowin</h1>
-            </div>
-            <div id="matrixrosa">
-                <img src="matrixrosa.jpeg" class="matrixrosafoto">
-                <h1 style="color:white;font-size: 18px;margin-left:90px;font-family:kiona">Matrix rosé</h1>
-                <div>
-                    <h1 style="color: white; margin-left: 40px;" id="price2">300€<button class="mbbuttonrosa">Comprar</button></h1>
+                    <h1 style="color: white; margin-left: 40px;" id="price1">1100€<button class="mbbutton">Comprar</button></h1>
                 </div>
             </div>
         </div>
-
     </main>
+    <footer id="foot">
+        <a href="#"><h1 style="color: white;" id="priv">Política de privacidad</h1></a>
+        <a href="#top"><h1 style="color: white;" id="topp">Volver arriba</h1></a>
+    </footer>
 
 
 
